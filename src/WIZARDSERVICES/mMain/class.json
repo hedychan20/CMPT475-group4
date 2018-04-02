@@ -1,0 +1,42 @@
+{
+	"classtype": "kMenu",
+	"internalversion": 2,
+	"designtaskname": "Startup_Task",
+	"nextident": 1016,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iDesktopMenuRef",
+			"order": 1,
+			"type": "kItemref",
+			"subtype": "",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2018-03-30 19:35:47",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"enabled": true,
+		"external": true,
+		"helpfile": 0,
+		"helptext": "",
+		"inheritedorder": 0,
+		"issupercomponent": false,
+		"moddate": "2018-03-30 20:33:41",
+		"showascheckedout": false,
+		"title": {
+			"type": 0,
+			"calc": "wizardServices"
+		},
+		"userinfo": "",
+		"users": "12345678",
+		"version": ""
+	}
+}

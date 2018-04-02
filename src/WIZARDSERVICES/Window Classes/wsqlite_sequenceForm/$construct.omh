@@ -1,0 +1,7 @@
+Do iSqlRow.$definefromsqlclass('ssqlite_sequence','name','seq')
+Do iSqlRow.$sessionobject.$assign($sessions.WIZARDSERVICESSESSION.$sessionobject) Returns #F
+
+Do iSqlList.$definefromsqlclass('ssqlite_sequence','name','seq')
+Do iSqlList.$sessionobject.$assign($sessions.WIZARDSERVICESSESSION.$sessionobject) Returns #F
+
+Do method fetchData ('')

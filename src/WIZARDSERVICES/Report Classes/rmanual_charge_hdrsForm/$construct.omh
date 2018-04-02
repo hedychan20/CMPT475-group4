@@ -1,0 +1,10 @@
+;  Enter your initialization code here
+Calculate lImagePath as '/Users/emleechxn/Desktop/Screen Shot 2018-03-30 at 7.34.52 PM.png'
+ReadBinFile (lImagePath,iImageBin)
+
+Calculate iSqlList as pSqlList
+For iSqlList.$line from 1 to iSqlList.$linecount step 1
+	Do $cinst.$printrecord()
+End For
+
+Do $cinst.$endprint()

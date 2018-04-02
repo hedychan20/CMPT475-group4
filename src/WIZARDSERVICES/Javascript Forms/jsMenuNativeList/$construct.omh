@@ -1,0 +1,12 @@
+;  Enter your initialization code here
+
+Calculate iRow as pRow
+
+Do iMainList.$define(iSubList,iMainText)
+Do iSubList.$define(iTextCol1,iTextCol2,iAccessoryType,iAccessoryContent,iAccessoryValueCol,iImagePath,iFormName)
+Do iSubList.$add('clients Entry','Master Detail',kJSNativeListAccessoryTypeDisclosure,'',0,iconurl(12390),'jsclientsForm')
+Do iSubList.$add('manual_charge_dtls Entry','Master Detail',kJSNativeListAccessoryTypeDisclosure,'',0,iconurl(12390),'jsmanual_charge_dtlsForm')
+Do iSubList.$add('manual_charge_hdrs Entry','Master Detail',kJSNativeListAccessoryTypeDisclosure,'',0,iconurl(12390),'jsmanual_charge_hdrsForm')
+Do iSubList.$add('sqlite_sequence Entry','Master Detail',kJSNativeListAccessoryTypeDisclosure,'',0,iconurl(12390),'jssqlite_sequenceForm')
+
+Do iMainList.$add(iSubList,'Forms')

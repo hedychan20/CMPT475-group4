@@ -1,0 +1,5 @@
+Begin text block
+Text: {WHERE  name LIKE '%[iSearchText]%' OR seq LIKE '%[iSearchText]%'}
+End text block
+Get text block lWhereClause
+Do method fetchData (lWhereClause)

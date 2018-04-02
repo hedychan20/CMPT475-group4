@@ -1,0 +1,1 @@
+Do $reports.rsqlite_sequenceForm.$open('*',iSqlRow)

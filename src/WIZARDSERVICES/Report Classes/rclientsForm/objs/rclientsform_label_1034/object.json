@@ -1,0 +1,25 @@
+{
+	"ident": 1034,
+	"order": 17,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"desgroup": 0,
+		"deslock": false,
+		"fieldstyle": "AppRepLabel",
+		"floating": false,
+		"font": 1,
+		"fontextra": 0,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"height": 0.493,
+		"left": 0.0,
+		"lineno": 32,
+		"lineoffset": 0.0,
+		"printontop": false,
+		"text": "province_cd",
+		"textcolor": "RGB(0,0,0)",
+		"userinfo": "",
+		"width": 4.074
+	}
+}

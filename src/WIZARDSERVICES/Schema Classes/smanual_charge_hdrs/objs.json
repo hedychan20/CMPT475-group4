@@ -1,0 +1,44 @@
+[
+	{
+		"name": "manual_charge_hdr_uid",
+		"ident": 32001,
+		"order": 1,
+		"type": "kSequence",
+		"subtype": 0,
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "client_uid",
+		"ident": 32002,
+		"order": 2,
+		"type": "kInteger",
+		"subtype": "k32bitint",
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": true,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "recorded_dt",
+		"ident": 32003,
+		"order": 3,
+		"type": "kInteger",
+		"subtype": "k32bitint",
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	}
+]

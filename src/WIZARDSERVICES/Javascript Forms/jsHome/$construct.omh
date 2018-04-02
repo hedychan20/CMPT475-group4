@@ -1,0 +1,7 @@
+;  home screen, click on image to proceed
+
+Calculate lImagePath as '/Users/emleechxn/Desktop/Screen Shot 2018-03-30 at 7.35.07 PM.png'
+ReadBinFile (lImagePath,iSmallimageBin)
+
+Calculate lImagePath as '/Users/emleechxn/Desktop/Screen Shot 2018-03-30 at 7.34.52 PM.png'
+ReadBinFile (lImagePath,iLargeimageBin)

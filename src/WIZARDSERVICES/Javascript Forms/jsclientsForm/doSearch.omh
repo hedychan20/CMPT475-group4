@@ -1,0 +1,5 @@
+Begin text block
+Text: {WHERE  client_uid LIKE '%[iSearchText]%' OR name LIKE '%[iSearchText]%' OR address_line_1 LIKE '%[iSearchText]%' OR address_line_2 LIKE '%[iSearchText]%' OR city LIKE '%[iSearchText]%' OR postal_cd LIKE '%[iSearchText]%' OR province_cd LIKE '%[iSearchText]%'}
+End text block
+Get text block lWhereClause
+Do method fetchData (lWhereClause)

@@ -1,0 +1,13 @@
+;  Enter your initialization code here
+
+Calculate iNavMenuMaxRows as 5
+
+Do iNavMenu.$define(iMenuGroup,iMenuGroupDesc,iMenuOption,iMenuOptionDesc,iMenuOptionWindow,iMenuOptionForm)
+Do iNavMenu.$add('Home','','','','wHome','jsHome')
+Do iNavMenu.$add('Forms','Data Entry','clients Entry','Master Detail','wclientsForm','jsclientsForm')
+Do iNavMenu.$add('Forms','Data Entry','manual_charge_dtls Entry','Master Detail','wmanual_charge_dtlsForm','jsmanual_charge_dtlsForm')
+Do iNavMenu.$add('Forms','Data Entry','manual_charge_hdrs Entry','Master Detail','wmanual_charge_hdrsForm','jsmanual_charge_hdrsForm')
+Do iNavMenu.$add('Forms','Data Entry','sqlite_sequence Entry','Master Detail','wsqlite_sequenceForm','jssqlite_sequenceForm')
+
+
+Do method $buildmenu Returns iMyList

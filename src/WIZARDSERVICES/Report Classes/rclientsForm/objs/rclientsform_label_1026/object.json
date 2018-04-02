@@ -1,0 +1,25 @@
+{
+	"ident": 1026,
+	"order": 9,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"desgroup": 0,
+		"deslock": false,
+		"fieldstyle": "AppRepLabel",
+		"floating": false,
+		"font": 1,
+		"fontextra": 0,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"height": 0.493,
+		"left": 0.0,
+		"lineno": 16,
+		"lineoffset": 0.0,
+		"printontop": false,
+		"text": "address_line_1",
+		"textcolor": "RGB(0,0,0)",
+		"userinfo": "",
+		"width": 4.074
+	}
+}

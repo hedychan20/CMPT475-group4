@@ -1,0 +1,7 @@
+Do iSqlRow.$definefromsqlclass('smanual_charge_hdrs','manual_charge_hdr_uid','client_uid','recorded_dt')
+Do iSqlRow.$sessionobject.$assign($sessions.WIZARDSERVICESSESSION.$sessionobject) Returns #F
+
+Do iSqlList.$definefromsqlclass('smanual_charge_hdrs','manual_charge_hdr_uid','client_uid','recorded_dt')
+Do iSqlList.$sessionobject.$assign($sessions.WIZARDSERVICESSESSION.$sessionobject) Returns #F
+
+Do method fetchData ('')

@@ -1,0 +1,86 @@
+[
+	{
+		"name": "manual_charge_dtl_uid",
+		"ident": 32001,
+		"order": 1,
+		"type": "kSequence",
+		"subtype": 0,
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "manual_charge_uid",
+		"ident": 32002,
+		"order": 2,
+		"type": "kInteger",
+		"subtype": "k32bitint",
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": true,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "charge_descr",
+		"ident": 32003,
+		"order": 3,
+		"type": "kCharacter",
+		"subtype": "kSimplechar",
+		"sublen": 100000000,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "charge_dt",
+		"ident": 32004,
+		"order": 4,
+		"type": "kCharacter",
+		"subtype": "kSimplechar",
+		"sublen": 100000000,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "charge_qty",
+		"ident": 32005,
+		"order": 5,
+		"type": "kInteger",
+		"subtype": "k32bitint",
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	},
+	{
+		"name": "charge_rate",
+		"ident": 32006,
+		"order": 6,
+		"type": "kNumber",
+		"subtype": "k0dpShortnum",
+		"sublen": 0,
+		"properties": {
+			"desc": "",
+			"nonull": false,
+			"primarykey": true,
+			"userinfo": ""
+		}
+	}
+]

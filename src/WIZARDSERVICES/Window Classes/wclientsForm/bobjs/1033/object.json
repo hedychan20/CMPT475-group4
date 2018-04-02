@@ -1,0 +1,27 @@
+{
+	"ident": 1033,
+	"order": 16389,
+	"objtype": "kLabel",
+	"properties": {
+		"align": "kRightJst",
+		"backcolor": "kColorDefault",
+		"backpattern": 15,
+		"designactive": true,
+		"edgefloat": "kEFnone",
+		"fieldstyle": "AppLabel",
+		"font": 2,
+		"fontsize": 0,
+		"fontstyle": "kPlain",
+		"forecolor": "kColorDefault",
+		"height": 25,
+		"left": 5,
+		"objlink": 131080,
+		"text": "city",
+		"textcolor": "kColorDefault",
+		"top": 315,
+		"userinfo": "",
+		"vertcentertext": true,
+		"visible": true,
+		"width": 150
+	}
+}

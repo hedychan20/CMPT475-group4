@@ -1,0 +1,11 @@
+;  define row variable as used by file control to upload images to picture fields
+Do iJSFileRow.$define(iJSFileMimeList,iJSFileBinVarName)
+Do iJSFileRow.$assigncols(,'tJSFileBinData')
+
+Do iSqlList.$definefromsqlclass('ssqlite_sequence','name','seq')
+Do iSqlList.$sessionobject.$assign($sessions.WIZARDSERVICESSESSION.$sessionobject) Returns #F
+
+Do iSqlRow.$definefromsqlclass('ssqlite_sequence','name','seq')
+Do iSqlRow.$sessionobject.$assign($sessions.WIZARDSERVICESSESSION.$sessionobject) Returns #F
+
+Do method fetchData ('')

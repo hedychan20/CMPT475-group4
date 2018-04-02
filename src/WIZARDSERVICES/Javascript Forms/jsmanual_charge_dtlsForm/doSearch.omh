@@ -1,0 +1,5 @@
+Begin text block
+Text: {WHERE  manual_charge_dtl_uid LIKE '%[iSearchText]%' OR manual_charge_uid LIKE '%[iSearchText]%' OR charge_descr LIKE '%[iSearchText]%' OR charge_dt LIKE '%[iSearchText]%' OR charge_qty LIKE '%[iSearchText]%' OR charge_rate LIKE '%[iSearchText]%'}
+End text block
+Get text block lWhereClause
+Do method fetchData (lWhereClause)
